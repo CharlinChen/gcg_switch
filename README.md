@@ -5,11 +5,11 @@
 双生视界一键汉化+一键反和谐工具+模组管理
 
 ### 最新版本：
-#### V1.1.1 beta
+#### V1.2.0 beta
 
 ### 下载地址：
 
-https://gitee.com/CharlinChen/gcg_switch/raw/master/GCGSv1.1.1.apk
+https://gitee.com/CharlinChen/gcg_switch/raw/master/GCGSv1.2.0.apk
 
 如果你没有码云账号，可以在https://www.bilibili.com/read/cv5165668 的置顶评论中找到百度网盘的下载地址，不过同步需要一段时间。
 
