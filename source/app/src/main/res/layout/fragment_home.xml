@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ICON_imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:cropToPadding="false"
+                    android:scrollbarSize="0dp"
+                    app:srcCompat="@drawable/event_act001" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="left"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dip"
+                            android:paddingTop="10dip"
+                            android:text="更多交互"
+                            android:textColor="@color/colorText"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/gffanhexie_txq"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:paddingLeft="5dp"
+                            android:text="[?]" />
+
+                    </LinearLayout>
+
+                    <Switch
+                        android:id="@+id/fhx_switch"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="30dip"
+                        android:paddingTop="10dip"
+                        android:paddingRight="40dip"
+                        android:paddingBottom="10dip"
+                        android:switchMinWidth="55dp"
+                        android:text="当前状态：正常"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/fhxshuoming_textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="30dp"
+                        android:text="@string/gf_fhx_shuoming"
+                        android:visibility="gone"
+                        tools:visibility="gone" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ly_qsg"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="left"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dip"
+                            android:paddingTop="10dip"
+                            android:text="去除圣光"
+                            android:textColor="@color/colorText"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/gfqsguang_txq"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:paddingLeft="5dp"
+                            android:text="[?]" />
+
+                    </LinearLayout>
+
+                    <Switch
+                        android:id="@+id/qsg_switch"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="30dip"
+                        android:paddingTop="10dip"
+                        android:paddingRight="40dip"
+                        android:paddingBottom="10dip"
+                        android:switchMinWidth="55dp"
+                        android:text="当前状态：正常"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/qsgshuoming_textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="30dp"
+                        android:text="@string/gf_qsg_shuoming"
+                        android:visibility="gone"
+                        tools:visibility="gone" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="left"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dip"
+                            android:paddingTop="10dip"
+                            android:text="泳装小七"
+                            android:textColor="@color/colorText"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/gfxiaoqi_txq"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:paddingLeft="5dp"
+                            android:text="[?]" />
+
+                    </LinearLayout>
+
+                    <Switch
+                        android:id="@+id/gfxiaoqi_switch"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="30dip"
+                        android:paddingTop="10dip"
+                        android:paddingRight="40dip"
+                        android:paddingBottom="10dip"
+                        android:switchMinWidth="55dp"
+                        android:text="当前状态：私服"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/gfxiaoqi_textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="30dp"
+                        android:paddingRight="100dp"
+                        android:text="@string/gf_xiaoqi_shuoming"
+                        android:visibility="gone"
+                        tools:visibility="gone" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="left"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dip"
+                            android:paddingTop="10dip"
+                            android:text="闪耀无瑕"
+                            android:textColor="@color/colorText"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/gfwuxia_txq"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:paddingLeft="5dp"
+                            android:text="[?]" />
+
+                    </LinearLayout>
+
+                    <Switch
+                        android:id="@+id/gfwuxia_switch"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="30dip"
+                        android:paddingTop="10dip"
+                        android:paddingRight="40dip"
+                        android:paddingBottom="10dip"
+                        android:switchMinWidth="55dp"
+                        android:text="当前状态：私服"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/gfwuxia_textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="30dp"
+                        android:paddingRight="100dp"
+                        android:text="@string/gf_wuxia_shuoming"
+                        android:visibility="gone"
+                        tools:visibility="gone" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ly_lida"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="left"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dip"
+                            android:paddingTop="10dip"
+                            android:text="清理者丽达"
+                            android:textColor="@color/colorText"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/gf_lida_txq"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:paddingLeft="5dp"
+                            android:text="[?]" />
+
+                    </LinearLayout>
+
+                    <Switch
+                        android:id="@+id/gf_lida_switch"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="30dip"
+                        android:paddingTop="10dip"
+                        android:paddingRight="40dip"
+                        android:paddingBottom="10dip"
+                        android:switchMinWidth="55dp"
+                        android:text="当前状态：原始"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/gf_lida_textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="30dp"
+                        android:paddingRight="100dp"
+                        android:text="@string/gf_kaluo_shuoming"
+                        android:visibility="gone"
+                        tools:visibility="gone" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="left"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dip"
+                            android:paddingTop="10dip"
+                            android:text="品枫艾琳"
+                            android:textColor="@color/colorText"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/gf_ailin_txq"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:paddingLeft="5dp"
+                            android:text="[?]" />
+
+                    </LinearLayout>
+
+                    <Switch
+                        android:id="@+id/gf_ailin_switch"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="30dip"
+                        android:paddingTop="10dip"
+                        android:paddingRight="40dip"
+                        android:paddingBottom="10dip"
+                        android:switchMinWidth="55dp"
+                        android:text="当前状态：原始"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/gf_ailin_textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="30dp"
+                        android:paddingRight="100dp"
+                        android:text="@string/gf_ailin_shuoming"
+                        android:visibility="gone"
+                        tools:visibility="gone" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="left"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dip"
+                            android:paddingTop="10dip"
+                            android:text="夏日海滩"
+                            android:textColor="@color/colorText"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/gf_loadimg5_txq"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:paddingLeft="5dp"
+                            android:text="[?]" />
+
+                    </LinearLayout>
+
+                    <Switch
+                        android:id="@+id/gf_loadimg5_switch"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="30dip"
+                        android:paddingTop="10dip"
+                        android:paddingRight="40dip"
+                        android:paddingBottom="10dip"
+                        android:switchMinWidth="55dp"
+                        android:text="当前状态：原始"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/gf_loadimg5_textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="30dp"
+                        android:paddingRight="100dp"
+                        android:text="@string/gf_loadimg5_shuoming"
+                        android:visibility="gone"
+                        tools:visibility="gone" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="30dp"
+                android:text="@string/tips"
+                android:textAlignment="textStart" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="cn.charlin.gcgs.ui.home.HomeFragment"
+        android:label="@string/menu_gf"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="cn.charlin.gcgs.ui.gallery.GalleryFragment"
+        android:label="@string/menu_rf"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="cn.charlin.gcgs.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_hf"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="cn.charlin.gcgs.ui.tools.ToolsFragment"
+        android:label="@string/menu_tf"
+        tools:layout="@layout/fragment_tools" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="cn.charlin.gcgs.ui.share.ShareFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="cn.charlin.gcgs.ui.send.SendFragment"
+        android:label="@string/menu_set"
+        tools:layout="@layout/fragment_send" />
+</navigation>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">双生视界开关</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">双生视界开关</string>
+    <string name="nav_header_subtitle">https://gitee.com/gcg_switch</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">双生视界开关Ver:1.2.0beta</string>
+
+    <string name="menu_gf">国服(B服)</string>
+    <string name="menu_rf">日服</string>
+    <string name="menu_hf">韩服</string>
+    <string name="menu_tf">台服</string>
+    <string name="menu_about">关于</string>
+    <string name="menu_set">设置</string>
+    <string name="tips">\n\n提示：\n\n点击开关标题旁边的问号[?]查看该MOD的详情；\n点击左上角或向右滑屏可呼出菜单更换到日服；\n游戏更新导致部分开关失效，属于正常现象。</string>
+    <string name="shuomin">注意事项：\n\t\t1)请不要游戏运行时动用开关，否则会导致无法预知的后果，甚至封号；\n\t\t2)本工具非外挂工具，不会改变任何上传至服务器的数据，只要不在游戏运行时使用，理论上不会封号，但也不排除万一。您使用本工具默认您已了解风险并自行承担责任。</string>
+    <string name="about">关于本应用：\n\t\t\t\t作者：charlin</string>
+    <string name="app_version">V1.2.0 beta</string>
+    <string name="bd_version">补丁版本：20.11.20</string>
+    <string name="gf_fhx_shuoming">解锁日服的触摸交互。</string>
+    <string name="gf_qsg_shuoming">把圣骑士踢出试衣间(╯‵□′)╯︵┻━┻</string>
+    <string name="gf_xiaoqi_shuoming">私服小七l2d替换为泳装小七，可以在商店购买界面看到效果。</string>
+    <string name="gf_wuxia_shuoming">私服·时无瑕的l2d替换为台服特供的闪耀·时无瑕l2d。</string>
+    <string name="gf_loadimg5_shuoming">将第5个加载界面的CG图替换为千姬和小真海滩水着的CG图。</string>
+    <string name="gf_ailin_shuoming">将出游艾琳的l2d替换为韩服特供的品枫艾琳。</string>
+    <string name="gf_kaluo_shuoming">将女仆装·丽达的l2d改为清理者·丽达的l2d，该选项将在清理者·丽达实装后失效！</string>
+    <string name="rf_hh_shuoming">日服文本汉化。</string>
+
+</resources>

@@ -1,0 +1,65 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--
+         Customize your theme here.
+         少女粉
+        <item name="colorPrimary">#FA7298</item>
+        <item name="colorPrimaryDark">#FA7298</item>
+        <item name="colorAccent">#F67095</item>
+        胖次蓝
+        <item name="colorPrimary">#2196F3</item>
+        <item name="colorPrimaryDark">#2196F3</item>
+        <item name="colorAccent">#5DA0D4</item>
+        基佬紫
+        <item name="colorPrimary">#9C28B1</item>
+        <item name="colorPrimaryDark">#9C28B1</item>
+        <item name="colorAccent">#A461AE</item>
+        早苗绿
+        <item name="colorPrimary">#8BC24A</item>
+        <item name="colorPrimaryDark">#8BC24A</item>
+        <item name="colorAccent">#9AB975</item>
+        <item name="actionBarSize">40dp</item>
+        咸蛋黄
+        <item name="colorPrimary">#FEC107</item>
+        <item name="colorPrimaryDark">#FEC107</item>
+        <item name="colorAccent">#D7BC55</item>
+        <item name="actionBarSize">40dp</item>
+        姨妈红
+        <item name="colorPrimary">#F44236</item>
+        <item name="colorPrimaryDark">#F44236</item>
+        <item name="colorAccent">#D67169</item>
+        柑橘橙
+        <item name="colorPrimary">#D96A56</item>
+        <item name="colorPrimaryDark">#D96A56</item>
+        <item name="colorAccent">#E07F62</item>
+        夜空蓝
+        <item name="colorPrimary">#1D729A</item>
+        <item name="colorPrimaryDark">#1D729A</item>
+        <item name="colorAccent">#6396DD</item>
+        -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#2196F3</item>
+        <item name="colorPrimaryDark">#2196F3</item>
+        <item name="colorAccent">#5DA0D4</item>
+    </style>
+
+    <style name="AppTheme2" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#9C28B1</item>
+        <item name="colorPrimaryDark">#9C28B1</item>
+        <item name="colorAccent">#A461AE</item>
+    </style>
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

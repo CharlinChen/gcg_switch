@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="汉化设置"
+                    android:textColor="@color/colorText" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp">
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="MD5校验失败时强制启用汉化" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="主题色设置"
+                    android:textColor="@color/colorText" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp">
+
+                    <TextView
+                        android:id="@+id/textView_少女粉1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="■"
+                        android:textColor="@color/少女粉colorAccent"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView_少女粉2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="■"
+                        android:textColor="@color/少女粉colorPrimary"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView_少女粉3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="■"
+                        android:textColor="@color/少女粉colorPrimaryDark"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView_少女粉4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:text="少女粉" />
+
+                    <Button
+                        android:id="@+id/button_少女粉"
+                        android:layout_width="50dp"
+                        android:layout_height="30dp"
+                        android:background="@android:color/darker_gray"
+                        android:text="未启用" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp">
+
+                    <TextView
+                        android:id="@+id/textView_姨妈红1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="■"
+                        android:textColor="@color/姨妈红colorAccent"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView_姨妈红2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="■"
+                        android:textColor="@color/姨妈红colorPrimary"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView_姨妈红3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="■"
+                        android:textColor="@color/姨妈红colorPrimaryDark"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView_姨妈红4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:text="姨妈红" />
+
+                    <Button
+                        android:id="@+id/button_姨妈红"
+                        android:layout_width="50dp"
+                        android:layout_height="30dp"
+                        android:background="@android:color/darker_gray"
+                        android:text="未启用" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp">
+
+                    <TextView
+                        android:id="@+id/textView_柑橘橙1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="■"
+                        android:textColor="@color/柑橘橙colorAccent"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView_柑橘橙2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="■"
+                        android:textColor="@color/柑橘橙colorPrimary"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView_柑橘橙3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="■"
+                        android:textColor="@color/柑橘橙colorPrimaryDark"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView_柑橘橙4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:text="柑橘橙" />
+
+                    <Button
+                        android:id="@+id/button_柑橘橙"
+                        android:layout_width="50dp"
+                        android:layout_height="30dp"
+                        android:background="@android:color/darker_gray"
+                        android:text="未启用" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp">
+
+                    <TextView
+                        android:id="@+id/textView_咸蛋黄1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="■"
+                        android:textColor="@color/咸蛋黄colorAccent"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView_咸蛋黄2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="■"
+                        android:textColor="@color/咸蛋黄colorPrimary"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView_咸蛋黄3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="■"
+                        android:textColor="@color/咸蛋黄colorPrimaryDark"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView_咸蛋黄4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:text="咸蛋黄" />
+
+                    <Button
+                        android:id="@+id/button_咸蛋黄"
+                        android:layout_width="50dp"
+                        android:layout_height="30dp"
+                        android:background="@android:color/darker_gray"
+                        android:text="未启用" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp">
+
+                    <TextView
+                        android:id="@+id/textView_早苗绿1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="■"
+                        android:textColor="@color/早苗绿colorAccent"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView_早苗绿2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="■"
+                        android:textColor="@color/早苗绿colorPrimary"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView_早苗绿3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="■"
+                        android:textColor="@color/早苗绿colorPrimaryDark"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView_早苗绿4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:text="早苗绿" />
+
+                    <Button
+                        android:id="@+id/button_早苗绿"
+                        android:layout_width="50dp"
+                        android:layout_height="30dp"
+                        android:background="@android:color/darker_gray"
+                        android:text="未启用" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp">
+
+                    <TextView
+                        android:id="@+id/textView_夜空青1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="■"
+                        android:textColor="@color/夜空青colorAccent"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView_夜空青2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="■"
+                        android:textColor="@color/夜空青colorPrimary"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView_夜空青3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="■"
+                        android:textColor="@color/夜空青colorPrimaryDark"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView_夜空青4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:text="夜空青" />
+
+                    <Button
+                        android:id="@+id/button_夜空青"
+                        android:layout_width="50dp"
+                        android:layout_height="30dp"
+                        android:background="@android:color/darker_gray"
+                        android:text="未启用" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp">
+
+                    <TextView
+                        android:id="@+id/textView_胖次蓝1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="■"
+                        android:textColor="@color/胖次蓝colorAccent"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView_胖次蓝2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="■"
+                        android:textColor="@color/胖次蓝colorPrimary"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView_胖次蓝3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="■"
+                        android:textColor="@color/胖次蓝colorPrimaryDark"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView_胖次蓝4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:text="胖次蓝" />
+
+                    <Button
+                        android:id="@+id/button_胖次蓝"
+                        android:layout_width="50dp"
+                        android:layout_height="30dp"
+                        android:background="@color/colorText"
+                        android:text="已启用" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp">
+
+                    <TextView
+                        android:id="@+id/textView_基佬紫1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="■"
+                        android:textColor="@color/基佬紫colorAccent"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView_基佬紫2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="■"
+                        android:textColor="@color/基佬紫colorPrimary"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView_基佬紫3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="■"
+                        android:textColor="@color/基佬紫colorPrimaryDark"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView_基佬紫4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:text="基佬紫" />
+
+                    <Button
+                        android:id="@+id/button_基佬紫"
+                        android:layout_width="50dp"
+                        android:layout_height="30dp"
+                        android:background="@android:color/darker_gray"
+                        android:text="未启用" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

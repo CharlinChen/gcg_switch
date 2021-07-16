@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorText">#2196F3</color>
+
+    <color name="少女粉colorPrimary">#FA7298</color>
+    <color name="少女粉colorPrimaryDark">#FA7298</color>
+    <color name="少女粉colorAccent">#F67095</color>
+
+    <color name="胖次蓝colorPrimary">#2196F3</color>
+    <color name="胖次蓝colorPrimaryDark">#2196F3</color>
+    <color name="胖次蓝colorAccent">#5DA0D4</color>
+
+    <color name="基佬紫colorPrimary">#9C28B1</color>
+    <color name="基佬紫colorPrimaryDark">#9C28B1</color>
+    <color name="基佬紫colorAccent">#A461AE</color>
+
+    <color name="早苗绿colorPrimary">#8BC24A</color>
+    <color name="早苗绿colorPrimaryDark">#8BC24A</color>
+    <color name="早苗绿colorAccent">#9AB975</color>
+
+    <color name="咸蛋黄colorPrimary">#FEC107</color>
+    <color name="咸蛋黄colorPrimaryDark">#FEC107</color>
+    <color name="咸蛋黄colorAccent">#D7BC55</color>
+
+    <color name="姨妈红colorPrimary">#F44236</color>
+    <color name="姨妈红colorPrimaryDark">#F44236</color>
+    <color name="姨妈红colorAccent">#D67169</color>
+
+    <color name="柑橘橙colorPrimary">#D96A56</color>
+    <color name="柑橘橙colorPrimaryDark">#D96A56</color>
+    <color name="柑橘橙colorAccent">#E07F62</color>
+
+    <color name="夜空青colorPrimary">#1D729A</color>
+    <color name="夜空青colorPrimaryDark">#1D729A</color>
+    <color name="夜空青colorAccent">#6396DD</color>
+</resources>
